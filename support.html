@@ -1,0 +1,145 @@
+<h2 class="sr-only">FeuFitness Support</h2>
+
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --surface: #F7F7F9;
+    --text: #1A1A1A;
+    --text-secondary: #5B5B63;
+    --text-muted: #8A8A92;
+    --border: #E4E4E8;
+    --accent: #534AB7;
+    --accent-tint: rgba(83, 74, 183, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121218; --surface: #1D1D24; --text: #F0F0F2; --text-secondary: #B8B8C2;
+      --text-muted: #85858F; --border: #2C2C34; --accent: #9D95E8; --accent-tint: rgba(157, 149, 232, 0.14);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121218; --surface: #1D1D24; --text: #F0F0F2; --text-secondary: #B8B8C2;
+    --text-muted: #85858F; --border: #2C2C34; --accent: #9D95E8; --accent-tint: rgba(157, 149, 232, 0.14);
+  }
+  :root[data-theme="light"] {
+    --bg: #FFFFFF; --surface: #F7F7F9; --text: #1A1A1A; --text-secondary: #5B5B63;
+    --text-muted: #8A8A92; --border: #E4E4E8; --accent: #534AB7; --accent-tint: rgba(83, 74, 183, 0.08);
+  }
+
+  .legal-doc * { box-sizing: border-box; }
+  .legal-doc {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+  }
+  .legal-doc .eyebrow {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 13px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.75rem;
+  }
+  .legal-doc .eyebrow .mark {
+    width: 22px; height: 22px; border-radius: 7px; background: var(--accent);
+    display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .legal-doc .eyebrow .mark svg { width: 13px; height: 13px; }
+  .legal-doc h1 { font-size: 30px; font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; margin: 0 0 0.5rem; text-wrap: balance; }
+  .legal-doc .meta { font-size: 14px; color: var(--text-muted); margin: 0 0 2rem; }
+  .legal-doc .intro { font-size: 17px; color: var(--text-secondary); margin: 0 0 2.5rem; }
+  .legal-doc h2 {
+    font-size: 20px; font-weight: 700; color: var(--accent);
+    margin: 2.75rem 0 1rem; padding-top: 1.75rem; border-top: 1px solid var(--border);
+  }
+  .legal-doc h2:first-of-type { border-top: none; padding-top: 0; }
+  .legal-doc h3 { font-size: 16px; font-weight: 700; margin: 1.5rem 0 0.5rem; }
+  .legal-doc h3:first-child { margin-top: 0; }
+  .legal-doc p { margin: 0 0 1rem; font-size: 16px; }
+  .legal-doc ul { margin: 0 0 1rem; padding-left: 1.3rem; }
+  .legal-doc li { margin-bottom: 0.5rem; font-size: 16px; }
+  .legal-doc strong { font-weight: 600; }
+  .legal-doc a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  .legal-doc .callout {
+    background: var(--surface); border-radius: 12px; padding: 1.25rem 1.5rem; margin: 0 0 1.5rem;
+  }
+  .legal-doc .callout p:last-child { margin-bottom: 0; }
+  .legal-doc .faq-item {
+    background: var(--surface); border-radius: 12px; padding: 1.25rem 1.5rem; margin: 0 0 1rem;
+  }
+  .legal-doc .faq-item p:last-child { margin-bottom: 0; }
+  .legal-doc .faq-q { font-weight: 700; margin: 0 0 0.4rem; }
+  .legal-doc .footer-note {
+    margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
+    font-size: 13px; color: var(--text-muted); font-style: italic; line-height: 1.6;
+  }
+  .legal-doc .cross-link { margin-top: 2.5rem; font-size: 14px; color: var(--text-secondary); }
+  .legal-doc .cross-link a { margin-right: 1rem; }
+</style>
+
+<div class="legal-doc">
+  <div class="eyebrow">
+    <span class="mark">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M12 21s-7-4.35-9.5-9C.6 8.5 2 5 5.5 5c2 0 3.5 1.2 4.5 2.5C11 6.2 12.5 5 14.5 5 18 5 19.4 8.5 21.5 12 19 16.65 12 21 12 21Z" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M8 12h2l1.2-2.4L12.8 15 14 12h2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+    FeuFitness
+  </div>
+
+  <h1>Support</h1>
+  <p class="intro">Answers to common questions about FeuFitness, plus how to reach us directly if you need more help.</p>
+
+  <div class="callout">
+    <p><strong>The fastest way to reach us</strong> is the <strong>Help / Send Feedback</strong> form inside the app: open FeuFitness, go to <strong>Settings</strong>, and choose <strong>Help / Send Feedback</strong>. Pick the option that best matches your issue (Technical Issue, Question, or General Feedback) and, if you'd like a reply, leave a contact email — it routes straight to us.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <div class="faq-item">
+    <p class="faq-q">How do I cancel or manage my Premium subscription?</p>
+    <p>Premium is billed through your Apple ID via the App Store, so cancellations and billing changes are handled entirely by Apple, not us. On iPhone: open <strong>Settings → [your name] → Subscriptions</strong>, select FeuFitness, and choose <strong>Cancel Subscription</strong>. Changes take effect at the end of your current billing period.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How do I turn on Cloud Sync?</p>
+    <p>FeuFitness works fully without an account. If you'd like your data to follow you across devices, create an account from <strong>Settings</strong> — this turns on Cloud Sync. Without an account, your data stays only on your device.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How do I delete my account and data?</p>
+    <p>Use the in-app <strong>Help / Send Feedback</strong> form and let us know you'd like your account deleted. We action deletion requests within 30 days. You can also delete individual weight, food, or water entries yourself at any time within the app.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">My step count isn't showing — what's wrong?</p>
+    <p>Step tracking needs permission to read your phone's motion data. On iPhone, go to <strong>Settings → Privacy & Security → Motion & Fitness</strong> and make sure FeuFitness is turned on. On Android, check <strong>Settings → Apps → FeuFitness → Permissions → Physical Activity</strong>.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How accurate are the AI features (AI Meal Scan, Coach Lumi)?</p>
+    <p>They're general, AI-generated estimates meant to help with day-to-day tracking — not medical or professional nutrition advice, and they can occasionally be inaccurate or incomplete. Calorie figures throughout the app are typical estimates for guidance, not verified nutritional data. If something looks clearly wrong, you can always log it manually instead.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Is my data private?</p>
+    <p>Most of your data stays on your device by default and is never sent anywhere unless you turn on Cloud Sync. We don't sell your data, run ads, or use third-party analytics. Full details are in our <a href="./privacy-policy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">What languages does FeuFitness support?</p>
+    <p>English, Spanish, Arabic, Hindi, Māori, Russian, Samoan, Urdu, and Chinese — including right-to-left layout for Arabic and Urdu. Change it anytime in <strong>Settings → Language</strong>.</p>
+  </div>
+
+  <h2>Still need help?</h2>
+  <p>Open the app, go to <strong>Settings → Help / Send Feedback</strong>, and send us a message. If you'd like a reply, include a contact email — we read every submission.</p>
+
+  <p class="cross-link">
+    <a href="./terms-of-service.html">Terms of Service</a>
+    <a href="./privacy-policy.html">Privacy Policy</a>
+  </p>
+
+  <p class="footer-note">This page is provided for general support purposes and does not constitute medical, nutritional, or legal advice.</p>
+</div>
